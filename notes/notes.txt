@@ -1,12 +1,18 @@
+! MEANS IMPORTANT
+? COULD DO IT, IF NOT DOESN'T MATTER
+
 -----------MUST DO-----------
 
-CSS media query for bigger screens
+CSS media query for bigger screens!
+CSS media query for smaller screens!
 Better color palette?
 Better fonts?
-Finish portfolio with some projects I've done in class
+Finish portfolio with some projects I've done in class!!!
 Detect in what section the viewer is
 Change color like when in a section but for when hover?
  
  -----------DONE-----------
 Detect in what section the viewer is!
+Hover change color for sidebar section
+CSS media query for smaller screens
  
