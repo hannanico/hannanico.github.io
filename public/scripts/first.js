@@ -107,3 +107,15 @@ function update() {
 
 document.addEventListener("scroll", update);
 update();
+
+function darkMode() {
+  var about = document.getElementById("about");
+  about.classList.toggle("dark-mode");
+  var about_mode = document.getElementsByClassName("about_mode");
+  about_mode.classList.toggle("about_mode");
+
+  var skills = document.getElementById("skills");
+  skills.classList.toggle("dark-mode");
+  var skills_mode = document.getElementsByClassName("skills_mode");
+  skills_mode.classList.toggle("skills_mode");
+}
