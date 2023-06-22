@@ -136,7 +136,7 @@
       <section id="main" class="main_section">
         <div class="main">
           <label class="switch">
-            <input onclick="darkMode()" type="checkbox" />
+            <input id="btn" onclick="darkMode()" type="checkbox" />
             <span class="slider round"></span>
           </label>
           <h1>I REALLY DONT KNOW WHAT TO PUT HERE</h1>
@@ -146,7 +146,7 @@
 
       <!-- <section id="controls_about"></section> -->
       <!-- ABOUT SECTION WHICH CONTAINS A BRIFE INTRODUCTION OF WHO I AM, THE CAREER IM STUDYING, SOME MORE OF MY INFORMATION AND A FUN FACT -->
-      <section id="about" class="about_section" class="about_mode">
+      <section id="about" class="about_section about_color">
         <div class="about_title">
           <h1>About</h1>
           <hr class="titles_hr" />
@@ -222,7 +222,7 @@
       </section>
 
       <!-- SKILLS SECTION THAT FOCUS MOSTLY IN MY HARD SKILLS I'VE LEARNED IN COLLEGE, SHOULD INCLUDE SOME SOFT SKILLS -->
-      <section id="skills" class="skills_section" class="skills_mode">
+      <section id="skills" class="skills_section skills_color">
         <div class="skills_title">
           <h1>Skills</h1>
           <hr class="titles_hr" />
@@ -275,8 +275,7 @@
       <!-- RESUME AND EDUCATION SECTION THAT CONTAINS LIKE THE TITLE SAYS MY EDUCATIN FROM BEGINNING TILL TODAY AND MY PROFESSIONAL EXPERIENCE IN ALL OF MY YEARS -->
       <section
         id="resume_education"
-        class="resume_education_section"
-        class="resume_education_mode"
+        class="resume_education_section resume_education_color"
       >
         <div class="resume_education_title">
           <h1>Resume and Education</h1>
@@ -353,7 +352,7 @@
 
       <!-- <section id="controls_portfolio"></section> -->
       <!-- PORTFOLIO SECTION THAT FOR NOW HAS EXAMPLES ONLY, HAVEN'T WORKED IN ANY GOOD PROJECT I CAN PUT HERE -->
-      <section id="portfolio" class="portfolio_section" class="portfolio_mode">
+      <section id="portfolio" class="portfolio_section portfolio_color">
         <div class="portfolio_title">
           <h1>Portfolio</h1>
           <hr class="titles_hr" />
@@ -397,7 +396,7 @@
 
       <!-- <section id="controls_contact"></section> -->
       <!-- CONTACT SECTION WHICH CONTAINS ALL OF THE INFORMATION IN WHICH YOU WILL BE ABLE TO CONTACT ME, AND ALSO A CONTACT FORM -->
-      <section id="contact" class="contact_section" class="contact_mode">
+      <section id="contact" class="contact_section contact_color">
         <div class="contact_title">
           <h1>Contact</h1>
           <hr class="titles_hr" />
@@ -470,7 +469,7 @@
       </section>
 
       <!-- THIS IS TO DISPLAY THE ERRORS IF SOMETHING IN THE FORM IS MISSING OR WRITTEN IN A BAD WAY, THIS WILL ONLY APPEAR IF CERTAIN CONDITIONS ARE MEET -->
-      <div id="error" class="error">
+      <div id="error" class="error error_color">
         <% if (typeof errors !=='undefined') { for(var error of errors){ %>
         <h3><%= error.msg %></h3>
         <% } } %>

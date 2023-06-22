@@ -339,7 +339,7 @@ input:checked + .slider:before {
 
 /* ---------------------ABOUT SECTION START--------------------- */
 
-#about {
+.about_color {
   background-color: var(--bone);
   color: var(--darkB);
 }
@@ -425,7 +425,7 @@ input:checked + .slider:before {
 
 /* ---------------------SKILLS SECTION START--------------------- */
 
-#skills {
+.skills_color {
   background-color: var(--white);
   color: var(--darkB);
 }
@@ -499,12 +499,15 @@ input:checked + .slider:before {
 
 /* ---------------------RESUME-EDUCATION SECTION START--------------------- */
 
+.resume_education_color {
+  background-color: var(--bone);
+  color: var(--darkB);
+}
+
 .resume_education_section {
   grid-column: 2/5;
   width: 100%;
   height: 100%;
-  background-color: var(--bone);
-  color: var(--darkB);
 }
 
 .resume_education_title {
@@ -573,13 +576,16 @@ input:checked + .slider:before {
 
 /* ---------------------CONTACT SECTION START--------------------- */
 
+.contact_color {
+  background-color: var(--bone);
+  color: var(--darkB);
+}
+
 .contact_section {
   /* padding: 0 0 5rem 0; */
   grid-column: 2/5;
   width: 100%;
   height: 100%;
-  background-color: var(--bone);
-  color: var(--darkB);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -711,12 +717,15 @@ label {
 
 /* ---------------------ERRORS SECTION START--------------------- */
 
+.error_color {
+  background-color: var(--mustardY);
+  color: red;
+}
+
 .error {
   display: flex;
   justify-content: space-evenly;
   grid-column: 2/5;
-  background-color: var(--mustardY);
-  color: red;
   font-family: "Montserrat", sans-serif;
   margin: 0 0.4rem 0.4rem 0.4rem;
 }
@@ -725,14 +734,17 @@ label {
 
 /* ---------------------PORTFOLIO SECTION START--------------------- */
 
+.portfolio_color {
+  background-color: var(--white);
+  color: var(--darkB);
+}
+
 .portfolio_section {
   grid-column: 2/5;
   display: grid;
   gap: 17px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   padding: 1.2rem;
-  background-color: var(--white);
-  color: var(--darkB);
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
 }
