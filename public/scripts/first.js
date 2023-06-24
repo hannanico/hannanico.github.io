@@ -1,7 +1,3 @@
-//ALL OF THE CODE IS THE SAME
-//THERE ARE DIFFERENT SECTIONS OF CODE FOR THE DIFFERENT SECTIONS IN THE EJS
-//THE ONLY THINGS THAT CHANGE FROM SECTION TO SECTION IS THE NAME AND SOME NUMERIC VALUES
-
 const { MongoExpiredSessionError } = require("mongodb");
 
 function update() {
@@ -110,6 +106,7 @@ function update() {
 document.addEventListener("scroll", update);
 update();
 
+//This function is called when the swtich button is clicked to change the theme of the website.
 function darkMode() {
   var about_mode = document.getElementById("about");
   about_mode.classList.toggle("about_color");
