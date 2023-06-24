@@ -15,4 +15,4 @@ Change color like when in a section but for when hover?
 Detect in what section the viewer is!
 Hover change color for sidebar section
 CSS media query for smaller screens
- 
+Dark mode available
