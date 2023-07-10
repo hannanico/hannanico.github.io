@@ -1,5 +1,3 @@
-const { MongoExpiredSessionError } = require("mongodb");
-
 function update() {
   //<-----------MAIN SECTION PART----------->//
   //Get where the information will be displayed
