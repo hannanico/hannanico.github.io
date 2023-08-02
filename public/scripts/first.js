@@ -106,6 +106,22 @@ update();
 
 //This function is called when the swtich button is clicked to change the theme of the website.
 function darkMode() {
+  // document.getElementById("about").style.borderBottom = "1px solid #ffffff";
+
+  // document.getElementById("skills").style.borderBottom = "1px solid #ffffff";
+
+  // document.getElementById("resume_education").style.borderBottom =
+  //   "1px solid #ffffff";
+  // document.getElementById("portfolio").style.borderBottom = "1px solid #ffffff";
+
+  // document.getElementById("contact").style.borderBottom = "1px solid #ffffff";
+  var years = document.getElementById("years");
+  years.classList.toggle("dark-mode");
+
+  var side_mode = document.getElementById("side");
+  side_mode.classList.toggle("sidebar_color");
+  side_mode.classList.toggle("dark-mode");
+
   var about_mode = document.getElementById("about");
   about_mode.classList.toggle("about_color");
   about_mode.classList.toggle("dark-mode");

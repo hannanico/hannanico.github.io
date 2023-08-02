@@ -34,6 +34,10 @@ ol {
   /* background-color: var(--lightB); */
 }
 
+.test2 {
+  color: yellow;
+}
+
 h1,
 h2,
 h3,
@@ -202,10 +206,14 @@ input:checked + .slider:before {
 
 /* ---------------------SIDEBAR SECTION START--------------------- */
 
+.sidebar_color {
+  background-color: var(--darkB);
+  color: var(--white);
+}
+
 .sidebar_section {
   grid-column: 1/2;
   grid-row: 1/20;
-  background-color: var(--darkB);
   display: flex;
   flex-direction: column;
   width: 20rem;
@@ -546,7 +554,7 @@ input:checked + .slider:before {
   padding-bottom: 5px;
 }
 
-.years {
+#years {
   padding: 0 0.2rem 0 0.2rem;
   display: inline;
   font-weight: bolder;
