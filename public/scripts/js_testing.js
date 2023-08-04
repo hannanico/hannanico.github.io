@@ -21,7 +21,7 @@
 //   }
 // });
 
-//scrollHeight doesnt work, height will never change
+// scrollHeight doesnt work, height will never change
 // const element = document.getElementById("main");
 // let y = element.scrollHeight;
 // console.log(y);
@@ -34,7 +34,7 @@
 //   }
 // }
 
-//need to check, possible solution https://stackoverflow.com/questions/10605197/detect-if-user-is-scrolling
+// need to check, possible solution https://stackoverflow.com/questions/10605197/detect-if-user-is-scrolling
 // window.onscroll = function () {
 //   var distanceScrolled = document.documentElement.scrollTop;
 //   console.log("Scrolled: " + distanceScrolled);

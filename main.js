@@ -13,7 +13,7 @@ myApp.set("view engine", "ejs");
 
 myApp.get("/", (req, res) => {
   //   console.log("Fucking finally its working");
-  res.render("first");
+  res.render("main");
 });
 
 const ContactInformation = mongoose.model("ContactInformation", {
@@ -36,7 +36,7 @@ myApp.post(
     const errors = validationResult(req);
     console.log(req.body);
     if (!errors.isEmpty()) {
-      res.render("first", {
+      res.render("main", {
         errors: errors.array(),
       });
     } else {
@@ -54,7 +54,7 @@ myApp.post(
 
       newContactInformation.save().then(() => console.log("New numbers saved"));
 
-      res.render("first");
+      res.render("main");
     }
   }
 );
