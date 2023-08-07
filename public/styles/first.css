@@ -554,7 +554,7 @@ input:checked + .slider:before {
   padding-bottom: 5px;
 }
 
-#years {
+.years {
   padding: 0 0.2rem 0 0.2rem;
   display: inline;
   font-weight: bolder;

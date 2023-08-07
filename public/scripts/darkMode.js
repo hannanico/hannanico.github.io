@@ -8,8 +8,11 @@ function darkMode() {
   // document.getElementById("portfolio").style.borderBottom = "1px solid #ffffff";
 
   // document.getElementById("contact").style.borderBottom = "1px solid #ffffff";
-  var years = document.getElementById("years");
-  years.classList.toggle("dark-mode");
+  var button = document.getElementById("btn");
+
+  var years_mode = document.getElementById("years");
+  years_mode.classList.toggle("years");
+  years_mode.classList.toggle("dark-mode");
 
   var side_mode = document.getElementById("side");
   side_mode.classList.toggle("sidebar_color");
