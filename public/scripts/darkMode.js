@@ -10,9 +10,15 @@ function darkMode() {
   // document.getElementById("contact").style.borderBottom = "1px solid #ffffff";
   var button = document.getElementById("btn");
 
-  var years_mode = document.getElementById("years");
-  years_mode.classList.toggle("years");
-  years_mode.classList.toggle("dark-mode");
+  const years_all = document.querySelectorAll(".years");
+
+  // Use a while loop to toggle the class of each element
+  let i = 0;
+  while (i < years_all.length) {
+    years_all[i].classList.toggle("years");
+    years_all[i].classList.toggle("dark-mode");
+    i++;
+  }
 
   var side_mode = document.getElementById("side");
   side_mode.classList.toggle("sidebar_color");
