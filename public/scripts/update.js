@@ -29,7 +29,7 @@ function update() {
   const container_about = document.getElementById("controls_about");
   const elem_about = document.getElementById("about");
   const { top: top_about } = elem_about.getBoundingClientRect();
-  const size_about_top = 324;
+  const size_about_top = 380;
   const size_about_bottom = -250;
 
   // container_about.innerHTML = "";
