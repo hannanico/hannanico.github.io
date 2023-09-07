@@ -206,7 +206,7 @@ input:checked + .slider:before {
 
 /* ---------------------SIDEBAR SECTION START--------------------- */
 
-.sidebar_color {
+.side_color {
   background-color: var(--darkB);
   color: var(--white);
 }
