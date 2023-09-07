@@ -71,3 +71,59 @@
 
 // document.addEventListener("scroll", update);
 // update();
+
+// const sectionInfo = [
+//     {
+//       id: "main",
+//       controlId: "home_a",
+//       sizeTop: -374,
+//     },
+//     {
+//       id: "about",
+//       controlId: "about_a",
+//       sizeTop: 380,
+//       sizeBottom: -250,
+//     },
+//     {
+//       id: "resume_education",
+//       controlId: "resume_a",
+//       sizeTop: 366,
+//       sizeBottom: -267,
+//     },
+//     {
+//       id: "portfolio",
+//       controlId: "portfolio_a",
+//       sizeTop: 371,
+//       sizeBottom: -590,
+//     },
+//     {
+//       id: "contact",
+//       controlId: "contact_a",
+//       sizeTop: 350,
+//       sizeBottom: -270,
+//     },
+//   ];
+
+//   function updateSection(section) {
+//     const container = document.getElementById(`controls_${section.id}`);
+//     const elem = document.getElementById(section.id);
+//     const { top } = elem.getBoundingClientRect();
+
+//     if (
+//       (!section.sizeTop || top < section.sizeTop) &&
+//       (!section.sizeBottom || top > section.sizeBottom)
+//     ) {
+//       document.getElementById(section.controlId).className = "test";
+//     } else {
+//       document.getElementById(section.controlId).className = "";
+//     }
+//   }
+
+//   function update() {
+//     for (const section of sectionInfo) {
+//       updateSection(section);
+//     }
+//   }
+
+//   document.addEventListener("scroll", update);
+//   update();

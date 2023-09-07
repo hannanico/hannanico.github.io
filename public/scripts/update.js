@@ -9,16 +9,7 @@ function update() {
   //This is the top size of the section when we scroll
   const size_main = -374;
 
-  // //We clear the information if theres something there
-  // container_main.innerHTML = "";
-  // //This creates paragraph in which we are going to display the information we take from the getBoundingClientRect() function
-  // let para_main = document.createElement("p");
-  // //Providing the information to the paragraph we just created
-  // para_main.textContent = `top: ${top_main}`;
-  // container_main.appendChild(para_main);
-
   //This is where we check if the section is in the user's viewport
-  //If yes it will set a class name in the nav bar to show the user that they are in that section
   if (top_main > size_main) {
     document.getElementById("home_a").className = "test";
   } else {
@@ -31,11 +22,6 @@ function update() {
   const { top: top_about } = elem_about.getBoundingClientRect();
   const size_about_top = 380;
   const size_about_bottom = -250;
-
-  // container_about.innerHTML = "";
-  // let para_about = document.createElement("p");
-  // para_about.textContent = `top: ${top_about}`;
-  // container_about.appendChild(para_about);
 
   if (top_about < size_about_top && top_about > size_about_bottom) {
     document.getElementById("about_a").className = "test";
@@ -50,11 +36,6 @@ function update() {
   const size_resume_top = 366;
   const size_resume_bottom = -267;
 
-  // container_resume.innerHTML = "";
-  // let para_resume = document.createElement("p");
-  // para_resume.textContent = `top: ${top_resume}`;
-  // container_resume.appendChild(para_resume);
-
   if (top_resume < size_resume_top && top_resume > size_resume_bottom) {
     document.getElementById("resume_a").className = "test";
   } else {
@@ -67,11 +48,6 @@ function update() {
   const { top: top_portfolio } = elem_portfolio.getBoundingClientRect();
   const size_portfolio_top = 371;
   const size_portfolio_bottom = -590;
-
-  // container_portfolio.innerHTML = "";
-  // let para_portfolio = document.createElement("p");
-  // para_portfolio.textContent = `top: ${top_portfolio}`;
-  // container_portfolio.appendChild(para_portfolio);
 
   if (
     top_portfolio < size_portfolio_top &&
@@ -89,11 +65,6 @@ function update() {
   const size_contact_top = 350;
   const size_contact_bottom = -270;
 
-  // container_contact.innerHTML = "";
-  // let para_contact = document.createElement("p");
-  // para_contact.textContent = `top: ${top_contact}`;
-  // container_contact.appendChild(para_contact);
-
   if (top_contact < size_contact_top && top_contact > size_contact_bottom) {
     document.getElementById("contact_a").className = "test";
   } else {
@@ -103,5 +74,3 @@ function update() {
 
 document.addEventListener("scroll", update);
 update();
-
-//This function is called when the swtich button is clicked to change the theme of the website.
